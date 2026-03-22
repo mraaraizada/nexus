@@ -206,7 +206,7 @@ export default function Dashboard() {
               {/* Greeting */}
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
                 <h1 className="text-2xl font-bold text-white mb-1" style={{ fontFamily: 'Poppins' }}>
-                  Good morning, Dr. Doe 👋
+                  Good morning, User 👋
                 </h1>
                 <p className="text-white/40 text-sm">You have 3 classes today. Attendance not yet recorded for 2.</p>
               </motion.div>
